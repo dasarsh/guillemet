@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 
+app.get('/roomy', function (req, res) {
+    res.send('this is roomy');
+})
+
 app.get('/', function (req, res) {
     res.send('this is guillemet');
 })
