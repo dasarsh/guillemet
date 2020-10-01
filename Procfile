@@ -1,2 +1,2 @@
 
-worker: node guillemet.js
+web: node guillemet.js
