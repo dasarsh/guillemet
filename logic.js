@@ -27,7 +27,7 @@ module.exports = {
                             {
                                 label: splitRow[0].trim(),
                                 total: splitRow[1].trim(),
-                                last24Hours: splitRow[2].trim()
+                                delta: splitRow[2].trim()
                             }
                         );
                     });
